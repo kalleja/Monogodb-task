@@ -3,9 +3,10 @@ const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
 const catSchema = new Schema({
-  name: String,
+ name: String,
   age: Number,
-  species: String,
+  gender: String,
+  weight: Number,
   owner: { type: mongoose.ObjectId, ref: 'User' }
 });
   
