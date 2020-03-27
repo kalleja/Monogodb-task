@@ -21,7 +21,7 @@ app.post('/cat', async(req, res) => {
 });
 
 app.post('/user', async (req, res) => {
-  const myuser = await user.create({ name: 'Ian Super Troope', email: 'licenstokill@ttyt.fi', password: '007' });
+  const myuser = await user.create({ name: 'Irbis Elba', email: 'thenextjamesBond@MI6.fi', password: '008' });
   res.send(`user created with id ${myuser._id}`);
 });
  
