@@ -13,7 +13,7 @@ app.get('/', async (req, res) => {
 }); 
 
 app.post('/cat', async(req, res) => {
-  const mycat = await cat.create({ name: 'Pussy Galor', age: 8, gender: female, weight: 78 'kg', owner: '5e7de420476d3010e4095334' });
+  const mycat = await cat.create({ name: 'Pussy Galor', age: 8, gender: female, weight: 78 , owner: '5e7de420476d3010e4095334' });
   //const myuser = find
   //myuser.cats.push(mycat._id);
   //save()
