@@ -6,7 +6,7 @@ const catSchema = new Schema({
  name: String,
   age: Number,
   gender: String,
-  weight: Number,
+  weight: String,
   owner: { type: mongoose.ObjectId, ref: 'User' }
 });
   
